@@ -4,7 +4,6 @@ import { Shield, Download, Copy, Check, Loader } from 'lucide-react';
 import { QRCodeSVG } from 'qrcode.react';
 import Link from 'next/link';
 import VisitorService from '@/Services/visitorService';
-
 function DetailRow({ label, value }) {
   return (
     <div className="flex flex-col">
