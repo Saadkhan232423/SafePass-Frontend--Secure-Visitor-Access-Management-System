@@ -5,7 +5,6 @@ import ProtectedRoute from '@/components/ProtectedRoute';
 import Sidebar from '@/components/Sidebar';
 import VisitorService from '@/Services/visitorService';
 import { Search, Bell, TrendingUp, TrendingDown, Loader } from 'lucide-react';
-
 function StatCard({ title, value, color, trend, isUp, loading }) {
   const colors = {
     blue: 'border-l-blue-500',
