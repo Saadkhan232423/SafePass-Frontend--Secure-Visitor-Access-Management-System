@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import { Search, Calendar, Loader } from 'lucide-react';
 import VisitorService from '@/Services/visitorService';
-
 export default function ApprovalsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('All');
