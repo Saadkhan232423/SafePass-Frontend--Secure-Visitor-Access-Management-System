@@ -1,6 +1,5 @@
 // src/Services/settingsService.js
 import api from '@/lib/api';
-
 class SettingsService {
   static async getVisitingHours() {
     try {
