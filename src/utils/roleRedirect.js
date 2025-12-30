@@ -1,5 +1,4 @@
 import AuthService from '@/Services/authService';
-
 export const redirectByRole = () => {
   const role = AuthService.getUserRole();
   
