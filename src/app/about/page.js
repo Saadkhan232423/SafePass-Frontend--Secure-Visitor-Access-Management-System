@@ -2,7 +2,6 @@
 import { Shield, Users, Lock, Award, Zap, Globe, TrendingUp, Heart } from 'lucide-react';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-
 function ValueCard({ icon, title, description, delay }) {
   const [isVisible, setIsVisible] = useState(false);
 
