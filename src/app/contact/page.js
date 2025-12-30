@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import { Shield, Mail, Phone, MapPin, Send, MessageCircle, Clock, Globe } from 'lucide-react';
 import Link from 'next/link';
-
 function AnimatedBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
