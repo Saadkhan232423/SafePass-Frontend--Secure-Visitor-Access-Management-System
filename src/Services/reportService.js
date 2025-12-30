@@ -10,7 +10,6 @@ class ReportService {
       throw error.response?.data || error;
     }
   }
-
   // Get all reports
   static async getAllReports() {
     try {
