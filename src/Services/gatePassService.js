@@ -10,7 +10,6 @@ class GatePassService {
       throw error.response?.data || error;
     }
   }
-
   // Download gate pass PDF
   static async downloadGatePass(gatePassNumber) {
     try {
