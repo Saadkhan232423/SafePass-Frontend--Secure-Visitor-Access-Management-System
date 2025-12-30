@@ -1,7 +1,6 @@
 import api from '@/lib/api';
 
 class AuthService {
-  // Login user
   static async login(credentials) {
     try {
       const response = await api.post('/auth/login', credentials);
