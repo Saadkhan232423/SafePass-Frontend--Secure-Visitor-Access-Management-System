@@ -4,7 +4,6 @@ import { useRouter } from 'next/navigation';
 import { Shield, Mail, Lock, Eye, EyeOff, Home } from 'lucide-react';
 import Link from 'next/link';
 import AuthService from '@/Services/authService';
-
 export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
