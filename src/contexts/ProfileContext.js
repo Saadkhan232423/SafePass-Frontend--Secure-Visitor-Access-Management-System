@@ -4,7 +4,6 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 import UserService from '@/Services/userService';
 
 const ProfileContext = createContext();
-
 export function ProfileProvider({ children }) {
   // Initialize synchronously from localStorage to avoid null flash on Fast Refresh
   const [profileImage, setProfileImageState] = useState(() => {
