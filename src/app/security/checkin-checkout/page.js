@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import VisitorService from '@/Services/visitorService';
 import { User, Loader, Search } from 'lucide-react';
-
 export default function CheckinCheckoutPage() {
   const [email, setEmail] = useState('');
   const [gatePass, setGatePass] = useState('');
