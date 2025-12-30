@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import VisitorService from '@/Services/visitorService';
 import UserService from '@/Services/userService';
-
 export default function RegisterPage() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
