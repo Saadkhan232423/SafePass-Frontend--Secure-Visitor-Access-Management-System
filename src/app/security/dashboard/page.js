@@ -6,7 +6,6 @@ import DashboardService from '@/Services/dashboardService';
 import VisitorService from '@/Services/visitorService';
 import Link from 'next/link';
 import { Users, AlertTriangle, Building, Loader, AlertCircle, Flag } from 'lucide-react';
-
 export default function SecurityDashboard() {
   const [stats, setStats] = useState({
     currentCheckins: 0,
