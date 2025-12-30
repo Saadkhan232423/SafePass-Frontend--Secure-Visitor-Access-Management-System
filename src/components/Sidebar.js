@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Shield, LayoutDashboard, Users, Building2, Settings, FileText, LogOut, UserCheck, Calendar, ClipboardCheck, Flag } from 'lucide-react';
-
 export default function Sidebar({ role = 'admin' }) {
   const pathname = usePathname();
 
