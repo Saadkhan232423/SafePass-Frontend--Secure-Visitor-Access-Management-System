@@ -1,6 +1,5 @@
 // src/Services/userService.js
 import api from '@/lib/api';
-
 class UserService {
   static async getProfile() {
     try {
