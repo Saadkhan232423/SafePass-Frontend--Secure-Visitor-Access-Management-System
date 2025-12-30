@@ -9,7 +9,6 @@ import GatePassService from '@/Services/gatePassService';
 const QRCodeCanvas = dynamic(() => import('qrcode.react').then(mod => mod.QRCodeCanvas), {
   ssr: false,
 });
-
 export default function GatePassPage() {
   const params = useParams();
   const gatePassNumber = params.number;
