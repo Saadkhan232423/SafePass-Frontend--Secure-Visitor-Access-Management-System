@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import DepartmentService from '@/Services/departmentService';
 import { Search, Plus, Edit, Trash2, Loader, X } from 'lucide-react';
-
 export default function DepartmentsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [departments, setDepartments] = useState([]);
