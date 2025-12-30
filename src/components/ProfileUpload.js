@@ -4,7 +4,6 @@ import { Camera, User } from 'lucide-react';
 import Image from 'next/image';
 import { useProfile } from '@/contexts/ProfileContext';
 import UploadService from '@/Services/uploadService';
-
 export default function ProfileUpload() {
   const { profileImage, setProfileImage } = useProfile();
   const [preview, setPreview] = useState(null);
