@@ -9,7 +9,6 @@ class DepartmentService {
       throw error.response?.data || error;
     }
   }
-
   static async createDepartment(departmentData) {
     try {
       const response = await api.post('/departments', departmentData);
