@@ -1,6 +1,4 @@
 import api from '@/lib/api';
-
-// Helper function to extract error messages
 const getErrorMessage = (error) => {
   if (error?.response?.data?.message) {
     return error.response.data.message;
