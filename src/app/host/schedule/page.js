@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import { Search, Calendar, Download, Loader } from 'lucide-react';
 import VisitorService from '@/Services/visitorService';
-
 export default function SchedulePage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [visitors, setVisitors] = useState([]);
