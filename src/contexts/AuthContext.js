@@ -3,7 +3,6 @@ import { createContext, useContext, useState, useEffect } from 'react';
 import AuthService from '@/Services/authService';
 
 const AuthContext = createContext({});
-
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
