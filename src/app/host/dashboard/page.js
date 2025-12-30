@@ -5,7 +5,6 @@ import Sidebar from '@/components/Sidebar';
 import DashboardService from '@/Services/dashboardService';
 import VisitorService from '@/Services/visitorService';
 import { Loader } from 'lucide-react';
-
 export default function HostDashboard() {
   const [stats, setStats] = useState({
     pendingApprovals: 0,
