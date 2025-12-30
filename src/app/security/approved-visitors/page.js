@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import VisitorService from '@/Services/visitorService';
 import { AlertTriangle, Loader } from 'lucide-react';
-
 export default function ApprovedVisitorsPage() {
   const [visitors, setVisitors] = useState([]);
   const [loading, setLoading] = useState(true);
