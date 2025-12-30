@@ -12,7 +12,6 @@ export default function FlaggedVisitorsPage() {
   const [resolutionNotes, setResolutionNotes] = useState('');
   const [resolving, setResolving] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
-
   useEffect(() => {
     loadFlaggedVisitors();
   }, []);
