@@ -18,7 +18,6 @@ class UserService {
       throw error.response?.data || error;
     }
   }
-
   static async updateProfile(data) {
     try {
       const response = await api.put('/users/profile/update', data);
