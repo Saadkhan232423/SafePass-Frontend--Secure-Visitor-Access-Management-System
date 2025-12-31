@@ -8,12 +8,10 @@ export default function ProtectedRoute({ children, requiredRole }) {
 
   useEffect(() => {
     const checkAuth = () => {
-      // Check if user is authenticated
       if (!AuthService.isAuthenticated()) {
         router.push('/login');
         return;
       }
-
       // Check role if required
       if (requiredRole) {
         const userRole = AuthService.getUserRole();
