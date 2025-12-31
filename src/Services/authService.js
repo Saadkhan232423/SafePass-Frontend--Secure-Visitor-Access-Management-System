@@ -13,7 +13,6 @@ class AuthService {
     }
   }
 
-  // Forgot password
   static async forgotPassword(email) {
     try {
       const response = await api.post('/auth/forgot-password', { email });
