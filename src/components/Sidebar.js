@@ -11,7 +11,6 @@ export default function Sidebar({ role = 'admin' }) {
     host: { bg: '#85409D', icon: '#85409D' },
     security: { bg: '#132440', icon: '#132440' },
   };
-
   const currentColor = roleColors[role] || roleColors.admin;
 
   const adminLinks = [
