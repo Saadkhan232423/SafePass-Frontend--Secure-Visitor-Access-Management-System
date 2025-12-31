@@ -8,7 +8,6 @@ export default function ProfileUpload() {
   const { profileImage, setProfileImage } = useProfile();
   const [preview, setPreview] = useState(null);
   const [uploading, setUploading] = useState(false);
-
   // Initialize preview from context image
   useEffect(() => {
     if (profileImage) {
